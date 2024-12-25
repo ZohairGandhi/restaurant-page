@@ -78,7 +78,8 @@ nav button:hover {
   max-width: 75ch;
 }
 
-#text-content h2 {
+#text-content h2,
+#content h2 {
   margin: 1rem 0;
 }
 
@@ -88,6 +89,30 @@ nav button:hover {
 
 #content img {
   height: 25rem;
+}
+
+#content h2 {
+  text-align: center;
+}
+
+#menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: fit-content;
+  margin: 0 auto 2rem auto;
+}
+
+.card {
+  background-color: #e0e1dd;
+  color: #0d1b2a;
+  width: 45ch;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.card h3 {
+  font-size: 1.3rem;
 }
 
 footer {

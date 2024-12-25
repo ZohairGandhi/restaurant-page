@@ -11,8 +11,8 @@ function createHome() {
     "Why Eat Like a Giant When You Can Dine Like a Miniature?"
   );
 
-  const para =
-    createPara(`Welcome to <strong>Mini Munchies</strong>, where the food is small,
+  const para = createPara(`
+            Welcome to <strong>Mini Munchies</strong>, where the food is small,
             but the experience is monumental. Forget big portions, because here,
             every dish is a bite. Or maybe even half a bite. It's about time we
             broke free from the shackles of traditional dining with plates you
@@ -24,6 +24,7 @@ function createHome() {
 
   textDiv.append(heading, para);
   pairDiv.append(textDiv, img);
+  contentDiv.innerHTML = "";
   contentDiv.appendChild(pairDiv);
 }
 
@@ -51,4 +52,4 @@ function createImg(img) {
   return image;
 }
 
-export { createHome as default };
+export { createHome as default, createDiv, createHeading, createPara };
