@@ -11,7 +11,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Fira Sans";
 }
 
 header {
@@ -50,6 +50,7 @@ nav {
 
 nav button {
   appearance: none;
+  font-family: inherit;
   font-size: 1.5rem;
   padding: 0.3rem 1rem;
   border: none;

@@ -12,3 +12,5 @@ menuBtn.addEventListener("click", () => createMenu(contentDiv));
 
 const aboutBtn = document.querySelector("#about-btn");
 aboutBtn.addEventListener("click", () => createAbout(contentDiv));
+
+createHome(contentDiv);
