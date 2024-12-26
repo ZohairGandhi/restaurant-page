@@ -1,8 +1,7 @@
 import "./style.css";
 import { createDiv, createHeading, createPara } from "./home";
 
-function createMenu() {
-  const contentDiv = document.querySelector("#content");
+function createMenu(contentDiv) {
   const mainHeading = createHeading("h2", "Featured Menu Items");
   const menuGrid = createDiv("menu-grid");
   const burgerCard = createCard(

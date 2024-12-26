@@ -1,8 +1,7 @@
 import "./style.css";
 import restaurantImg from "./fine-dining.png";
 
-function createHome() {
-  const contentDiv = document.querySelector("#content");
+function createHome(contentDiv) {
   const pairDiv = createDiv("intro-img-pair");
   const textDiv = createDiv("text-content");
 
