@@ -80,10 +80,11 @@ nav button:hover {
 
 #text-content h2,
 #content h2 {
-  margin: 1rem 0;
+  margin: 2rem 0 1rem 0;
 }
 
-#text-content p {
+#text-content p,
+#abt-sec p {
   font-size: 1.1rem;
 }
 
@@ -113,6 +114,31 @@ nav button:hover {
 
 .card h3 {
   font-size: 1.3rem;
+}
+
+#abt-sec {
+  text-align: center;
+  width: 75ch;
+  margin: 0 auto 2rem auto;
+}
+
+#abt-sec h3,
+#abt-sec p {
+  margin-bottom: 1rem;
+}
+
+#test-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.test {
+  font-size: 1.3rem;
+  background-color: #e0e1dd;
+  color: #0d1b2a;
+  padding: 1rem;
+  border-radius: 16px;
 }
 
 footer {
